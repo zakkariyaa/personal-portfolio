@@ -673,14 +673,6 @@ footer {
 
     .header__right-bg {
         display: none;
-<<<<<<< HEAD
-/*      width: 15rem;
-        height: 15rem;
-        right: 30%;
-        bottom: 40%;
-        transform: translate(50%, 50%); */
-=======
->>>>>>> remove blue right background on small devices
     }
 
     .header__right .header__image {
