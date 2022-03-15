@@ -220,8 +220,8 @@ header {
 }
 
 .header__right-bg {
-    width: 70rem;
-    height: 70rem;
+    width: 50rem;
+    height: 56rem;
     border-radius: 50%;
     background: var(--color-primary);
     position: absolute;
@@ -239,7 +239,7 @@ header {
 
 /* ================ SERVICES SECTION ================ */
 section#services {
-    margin-top: 8rem;
+    margin-top: 12rem;
 }
 
 .services__container {
@@ -671,10 +671,10 @@ footer {
     }
 
     .header__right-bg {
-        width: 30rem;
-        height: 30rem;
-        right: 50%;
-        bottom: 50%;
+        width: 15rem;
+        height: 15rem;
+        right: 30%;
+        bottom: 40%;
         transform: translate(50%, 50%);
     }
 
@@ -684,12 +684,12 @@ footer {
     }
 
     .header__right .header__socials {
-        right: -1rem;
-        bottom: 12rem;
+        right: 6rem;
+        bottom: 9rem;
     }
 
     .header__right .header__socials a {
-        color: var(--color-primary);
+        color: var(--color-light);
     }
 
 
@@ -820,13 +820,15 @@ footer {
     }
 
     .header__right .header__socials {
-        bottom: 14rem;
+        display: none;
+        /* bottom: 14rem; */
     }
 
     .header__right-bg {
-        bottom: 5%;
+        display: none;
+        /* bottom: 5%;
         width: 13rem;
-        height: 13rem;
+        height: 13rem; */
     }
 
 
