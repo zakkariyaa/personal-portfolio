@@ -671,11 +671,12 @@ footer {
     }
 
     .header__right-bg {
-        width: 15rem;
+        display: none;
+/*      width: 15rem;
         height: 15rem;
         right: 30%;
         bottom: 40%;
-        transform: translate(50%, 50%);
+        transform: translate(50%, 50%); */
     }
 
     .header__right .header__image {
@@ -821,14 +822,10 @@ footer {
 
     .header__right .header__socials {
         display: none;
-        /* bottom: 14rem; */
     }
 
     .header__right-bg {
         display: none;
-        /* bottom: 5%;
-        width: 13rem;
-        height: 13rem; */
     }
 
 
