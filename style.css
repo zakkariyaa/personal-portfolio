@@ -657,7 +657,8 @@ footer {
     }
 
     .header__container {
-        align-items: flex-end;
+        display: grid;
+        grid-template-columns: 1fr;
         height: 100%;
     }
 
@@ -672,11 +673,14 @@ footer {
 
     .header__right-bg {
         display: none;
+<<<<<<< HEAD
 /*      width: 15rem;
         height: 15rem;
         right: 30%;
         bottom: 40%;
         transform: translate(50%, 50%); */
+=======
+>>>>>>> remove blue right background on small devices
     }
 
     .header__right .header__image {
@@ -684,13 +688,13 @@ footer {
         width: 100%;
     }
 
-    .header__right .header__socials {
-        right: 6rem;
-        bottom: 9rem;
+    .header__socials {
+        background: red;
+        display: none;
     }
 
     .header__right .header__socials a {
-        color: var(--color-light);
+        color: var(--color-primary);
     }
 
 
