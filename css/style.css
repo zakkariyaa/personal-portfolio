@@ -887,4 +887,8 @@ footer {
     section#contact .contact__socials {
         justify-content: center;
     }
+
+    .contact__form-inputs > *, .contact__container .btn {
+        margin-top: 1rem;
+    }
 }
